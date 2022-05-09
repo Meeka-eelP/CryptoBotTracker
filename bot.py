@@ -11,7 +11,7 @@ from telegram.ext.filters import Filters
 from tracker import get_prices
 from tracker import get_sat
 
-telegram_bot_token = "5123008011:AAGMDse5bkMjp6eMv7uEwUzAEvz8PS2eQaU"
+telegram_bot_token = "<Telegram Bot token goes here>"
 
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
